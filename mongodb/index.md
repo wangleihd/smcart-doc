@@ -2,6 +2,8 @@
 
 ## 汽车信息说明
 
+### carinfo
+
 | 中文名称 | 英文 | 类型 | 说明 | 备注 |
 |---------|------|------|------|-----|
 | 工单号   | id |  String |  |  |
@@ -15,4 +17,17 @@
 | 车类型   | cartype | String |  |  |
 | 车着色   | carcolor | String|  |  |
 | sa姓名   | saname | String |   |  |
-| 交车时间 | ftime  |  Date |  |  |
+| 交车时间 | ftime  |  Date | 预计交车时间 |  |
+| 实交车时间 | realtime | date | 实际的交车时间 |  |
+
+
+
+## 工人信息
+
+### userinfo
+
+| 中文名称 | 英文 | 类型 | 说明 | 备注 |
+|---------|------|------|------|-----|
+| 姓名    | name  | string |  |   |
+| 密码    | passwd | string | MD5加密 |  |
+| 工种    | worktype | string | 一个人可以全多个工序 |   |
