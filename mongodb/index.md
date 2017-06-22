@@ -17,8 +17,17 @@
 | 车类型   | cartype | String |  |  |
 | 车着色   | carcolor | String|  |  |
 | sa姓名   | saname | String |   |  |
+| 输入时间 | nowtime | String | 登记时间 |  |
 | 交车时间 | ftime  |  Date | 预计交车时间 |  |
 | 实交车时间 | realtime | date | 实际的交车时间 |  |
+| 钣金工序 | bjgx | string | 钣金工序 | 是否完成工序 |
+| 钣金工序时间 | bjgx-start | string | 钣金工序开始时间 |  |
+| 钣金工序时间 | bjgx-end | string | 钣金工序结束时间 |  |
+| 钣金工序时间 | bjgx-about | string | 钣金工序预计花费的时间 | 这个工序大约需要2小时间 |
+| 钣金工序时间 | bjgx-will | string | 钣金工序预计时间 |  |
+| 钣金工序时间 | bjgx-about | string | 钣金工序预计花费的时间 | 这个工序大约需要2小时间 |
+
+
 
 
 
