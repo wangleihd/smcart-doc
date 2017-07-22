@@ -41,7 +41,7 @@
 | 帐号    | user  | string | 工人登录名  | 英文  |
 | 姓名    | name  | string | 工人姓名  | 中文 |
 | 密码    | passwd | string | MD5加密 |  |
-| 工种    | worktype | string | 一个人可以全多个工序 |   |
+| 职位    | worktype | string | 职位 |  "work">工人师傅, "sa">前台服务人员,"master">车间管理员,"root">系统管 |
 | 头像    | pic     | string | 头像设置 | 暂时设置成图片 |
 | 分组    | group   | string | 分组 | 默认值为 null |
 | 电话    | phone | number | 电话号码 | 默认值为 0 |
