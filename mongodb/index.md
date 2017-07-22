@@ -42,3 +42,11 @@
 | 姓名    | name  | string | 工人姓名  | 中文 |
 | 密码    | passwd | string | MD5加密 |  |
 | 工种    | worktype | string | 一个人可以全多个工序 |   |
+| 头像    | pic     | string | 头像设置 | 暂时设置成图片 |
+| 分组    | group   | string | 分组 | 默认值为 null |
+| 电话    | phone | number | 电话号码 | 默认值为 0 |
+| 部门    | department    | string | 部分名称 | 默认值为 null |
+| 权限    | permission | Number|        |  默认值为 0 |
+| 工位    |  station  | Number |  修理车位号 | 默认值为 0 |
+| 状态    | status    |  Number |   | 默认值为 0 |
+| 性别    |  sex      | Number | 性别 | 默认为 0 , 0表示男性, 1表示女生 |
