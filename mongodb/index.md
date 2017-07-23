@@ -50,3 +50,28 @@
 | 工位    |  station  | Number |  修理车位号 | 默认值为 0 |
 | 状态    | status    |  Number |   | 默认值为 0 |
 | 性别    |  sex      | Number | 性别 | 默认为 0 , 0表示男性, 1表示女生 |
+| 工种    | workkind | arry | 技术工人能做的工作 | 钣金, 喷漆, 底处理, 抛光, 中涂, 装配, 检验 |
+
+
+
+
+### 打卡记录
+
+
+
+```js
+let userShema = Schema({
+    user: { type: String },  //账号
+    name: { type: String }, //真实姓名
+    pic: { type: String, default: ""}, //头像
+    passwd: { type: String }, //密码
+    worktype: { type: Array }, //职能
+    group: { type: String, default: "" }, //分组
+    phone: { type: Number, default: 0 }, //电话
+    department: { type: String, default: "" }, //部门
+    permission: { type: Number, default: 0 }, //权限
+    station: { type: Number, default: 0 }, //工位
+    status: { type: Number, default: 0 },
+    sex: { type: Number, default: 0 }  //性别
+});
+```
